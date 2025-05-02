@@ -1,0 +1,243 @@
+{
+  "usuarios": [
+    {
+      "id_usuario": 1,
+      "nombre_usuario": "maria_lopez",
+      "contraseña": "hash_contraseña_encriptada",
+      "correo_electronico": "maria@ejemplo.com",
+      "fecha_registro": "2025-02-15T10:30:00Z",
+      "ultimo_acceso": "2025-04-23T16:45:22Z"
+    },
+    {
+      "id_usuario": 2,
+      "nombre_usuario": "juan_perez",
+      "contraseña": "hash_contraseña_encriptada",
+      "correo_electronico": "juan@ejemplo.com",
+      "fecha_registro": "2025-03-05T14:20:10Z",
+      "ultimo_acceso": "2025-04-22T09:12:35Z"
+    }
+  ],
+  "evaluaciones": [
+    {
+      "id_evaluacion": 1,
+      "id_usuario": 1,
+      "tema": "inversion",
+      "nivel_autoevaluado": 3,
+      "total_preguntas_correctas": 4,
+      "total_preguntas_incorrectas": 1,
+      "calificacion_final": 80,
+      "nivel_determinado": "intermedio",
+      "fecha_evaluacion": "2025-03-10T11:45:00Z"
+    },
+    {
+      "id_evaluacion": 2,
+      "id_usuario": 1,
+      "tema": "ahorro",
+      "nivel_autoevaluado": 2,
+      "total_preguntas_correctas": 3,
+      "total_preguntas_incorrectas": 2,
+      "calificacion_final": 60,
+      "nivel_determinado": "basico",
+      "fecha_evaluacion": "2025-03-12T14:30:00Z"
+    },
+    {
+      "id_evaluacion": 3,
+      "id_usuario": 2,
+      "tema": "credito-deudas",
+      "nivel_autoevaluado": 4,
+      "total_preguntas_correctas": 5,
+      "total_preguntas_incorrectas": 0,
+      "calificacion_final": 100,
+      "nivel_determinado": "avanzado",
+      "fecha_evaluacion": "2025-04-01T10:15:00Z"
+    }
+  ],
+  "juegos": [
+    {
+      "id_juego": 1,
+      "id_usuario": 1,
+      "tema_seleccionado": "inversion",
+      "nivel_jugado": "intermedio",
+      "fecha_inicio": "2025-03-15T18:30:00Z",
+      "fecha_fin": "2025-03-15T19:00:00Z",
+      "tiempo_total": 1800,
+      "saldo_inicial": 10000,
+      "situaciones_completadas": 5,
+      "aciertos_consecutivos": 3,
+      "decisiones_registro": [
+        {
+          "situacion_id": 1,
+          "opcion_elegida": 2,
+          "correcta": true,
+          "impacto_saldo": 800
+        },
+        {
+          "situacion_id": 3,
+          "opcion_elegida": 2,
+          "correcta": true,
+          "impacto_saldo": 500
+        },
+        {
+          "situacion_id": 4,
+          "opcion_elegida": 1,
+          "correcta": false,
+          "impacto_saldo": -15000
+        },
+        {
+          "situacion_id": 6,
+          "opcion_elegida": 1,
+          "correcta": true,
+          "impacto_saldo": 5000
+        },
+        {
+          "situacion_id": 8,
+          "opcion_elegida": 2,
+          "correcta": true,
+          "impacto_saldo": 3000
+        }
+      ],
+      "saldo_final": 4300,
+      "aciertos_totales": 4,
+      "monedas_ganadas": 1,
+      "clasificacion_resultante": "intermedio"
+    },
+    {
+      "id_juego": 2,
+      "id_usuario": 1,
+      "tema_seleccionado": "ahorro",
+      "nivel_jugado": "basico",
+      "fecha_inicio": "2025-03-20T16:45:00Z",
+      "fecha_fin": "2025-03-20T17:10:00Z",
+      "tiempo_total": 1500,
+      "saldo_inicial": 5000,
+      "situaciones_completadas": 5,
+      "aciertos_consecutivos": 5,
+      "decisiones_registro": [
+        {
+          "situacion_id": 8,
+          "opcion_elegida": 2,
+          "correcta": true,
+          "impacto_saldo": 3000
+        },
+        {
+          "situacion_id": 9,
+          "opcion_elegida": 3,
+          "correcta": true,
+          "impacto_saldo": 2000
+        },
+        {
+          "situacion_id": 10,
+          "opcion_elegida": 2,
+          "correcta": true,
+          "impacto_saldo": 500000
+        },
+        {
+          "situacion_id": 1,
+          "opcion_elegida": 2,
+          "correcta": true,
+          "impacto_saldo": 800
+        },
+        {
+          "situacion_id": 5,
+          "opcion_elegida": 1,
+          "correcta": true,
+          "impacto_saldo": 0
+        }
+      ],
+      "saldo_final": 510800,
+      "aciertos_totales": 5,
+      "monedas_ganadas": 2,
+      "clasificacion_resultante": "maestro"
+    },
+    {
+      "id_juego": 3,
+      "id_usuario": 2,
+      "tema_seleccionado": "credito-deudas",
+      "nivel_jugado": "avanzado",
+      "fecha_inicio": "2025-04-10T20:00:00Z",
+      "fecha_fin": "2025-04-10T20:25:00Z",
+      "tiempo_total": 1500,
+      "saldo_inicial": 100000,
+      "situaciones_completadas": 5,
+      "aciertos_consecutivos": 2,
+      "decisiones_registro": [
+        {
+          "situacion_id": 5,
+          "opcion_elegida": 2,
+          "correcta": true,
+          "impacto_saldo": 0
+        },
+        {
+          "situacion_id": 6,
+          "opcion_elegida": 1,
+          "correcta": true,
+          "impacto_saldo": 5000
+        },
+        {
+          "situacion_id": 7,
+          "opcion_elegida": 2,
+          "correcta": false,
+          "impacto_saldo": -100000
+        },
+        {
+          "situacion_id": 9,
+          "opcion_elegida": 1,
+          "correcta": false,
+          "impacto_saldo": 250
+        },
+        {
+          "situacion_id": 10,
+          "opcion_elegida": 3,
+          "correcta": false,
+          "impacto_saldo": 100000
+        }
+      ],
+      "saldo_final": 5250,
+      "aciertos_totales": 2,
+      "monedas_ganadas": 0,
+      "clasificacion_resultante": "principiante"
+    }
+  ],
+  "notificaciones": [
+    {
+      "id_notificacion": 1,
+      "id_usuario": 1,
+      "tipo_notificacion": "recordatorio",
+      "estado": "enviada",
+      "dias_inactividad": 3,
+      "mensaje": "¡Hola Maria! Han pasado 3 días desde tu última sesión. Regresa para seguir mejorando tus finanzas.",
+      "fecha_creacion": "2025-03-23T09:00:00Z",
+      "fecha_envio": "2025-03-23T09:00:00Z"
+    },
+    {
+      "id_notificacion": 2,
+      "id_usuario": 2,
+      "tipo_notificacion": "recordatorio",
+      "estado": "pendiente",
+      "dias_inactividad": 7,
+      "mensaje": "¡Hola Juan! Te extrañamos. Regresa para continuar tu aprendizaje financiero.",
+      "fecha_creacion": "2025-04-17T10:00:00Z",
+      "fecha_envio": null
+    }
+  ],
+  "progreso_general": [
+    {
+      "id_progreso": 1,
+      "id_usuario": 1,
+      "fecha_medicion": "2025-03-30T00:00:00Z",
+      "aciertos_totales": 9,
+      "clasificacion_actual": "intermedio",
+      "mejora_porcentual": 20,
+      "total_juegos_completados": 2
+    },
+    {
+      "id_progreso": 2,
+      "id_usuario": 2,
+      "fecha_medicion": "2025-04-15T00:00:00Z",
+      "aciertos_totales": 2,
+      "clasificacion_actual": "principiante",
+      "mejora_porcentual": 5,
+      "total_juegos_completados": 1
+    }
+  ]
+}
