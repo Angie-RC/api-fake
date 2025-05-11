@@ -78,128 +78,72 @@
       "tema": "inversion",
       "nivel": "basico",
       "descripcion": "Tienes S/2,000 disponibles. Te entusiasma la idea de invertir, pero aún no sabes mucho del tema. ¿Qué opción elegirías?",
-      "impacto_saldo": 100.0
+      "opciones": [
+        {
+          "opcion_id": 1,
+          "descripcion": "Invertir todo en criptomonedas.",
+          "correcta": 0,
+          "impacto_saldo": -50
+        },
+        {
+          "opcion_id": 2,
+          "descripcion": "Guardarlo en una cuenta de ahorros.",
+          "correcta": 0,
+          "impacto_saldo": -50
+        },
+        {
+          "opcion_id": 3,
+          "descripcion": "Informarte sobre fondos mutuos con bajo riesgo.",
+          "correcta": 1,
+          "impacto_saldo": 100
+        }
+      ]
     },
     {
       "situacion_id": 2,
       "tema": "inversion",
       "nivel": "basico",
       "descripcion": "Estás por invertir tus ahorros. Un asesor te plantea tres caminos. ¿Qué haces?",
-      "impacto_saldo": 150.0
+      "opciones": [
+        {
+          "opcion_id": 1,
+          "descripcion": "Inviertes todo en una sola empresa.",
+          "correcta": 0,
+          "impacto_saldo": -50
+        },
+        {
+          "opcion_id": 2,
+          "descripcion": "Lo divides entre dos sectores.",
+          "correcta": 0,
+          "impacto_saldo": -50
+        },
+        {
+          "opcion_id": 3,
+          "descripcion": "Optas por el fondo diversificado.",
+          "correcta": 1,
+          "impacto_saldo": 150
+        }
+      ]
     },
     {
       "situacion_id": 3,
       "tema": "inversion",
       "nivel": "basico",
       "descripcion": "Te ocurre una emergencia médica. Necesitas dinero urgentemente. Tienes dos opciones. ¿Qué elegirías?",
-      "impacto_saldo": 0.0
-    },
-    {
-      "situacion_id": 4,
-      "tema": "inversion",
-      "nivel": "basico",
-      "descripcion": "Te ofrecen una inversión que promete duplicar tu dinero en solo dos meses. Suena tentador, pero notas que hay advertencias de alto riesgo y volatilidad. ¿Qué haces?",
-      "impacto_saldo": 0.0
-    },
-    {
-      "situacion_id": 5,
-      "tema": "inversion",
-      "nivel": "basico",
-      "descripcion": "Tienes S/200. Podrías gastarlo hoy en algo que te gusta, o invertirlo en una opción que te da un pequeño interés cada mes. Si esperas un año, tendrás más dinero.. ¿Qué haces?",
-      "impacto_saldo": 100.0
-    }
-  ],
-  "opciones_situacion": [
-    {
-      "opcion_id": 1,
-      "situacion_id": 1,
-      "descripcion": "Invertir todo en criptomonedas.",
-      "correcta": 0,
-      "impacto_saldo": -50.0
-    },
-    {
-      "opcion_id": 2,
-      "situacion_id": 1,
-      "descripcion": "Guardarlo en una cuenta de ahorros.",
-      "correcta": 0,
-      "impacto_saldo": -50.0
-    },
-    {
-      "opcion_id": 3,
-      "situacion_id": 1,
-      "descripcion": "Informarte sobre fondos mutuos con bajo riesgo.",
-      "correcta": 1,
-      "impacto_saldo": 100.0
-    },
-    {
-      "opcion_id": 4,
-      "situacion_id": 2,
-      "descripcion": "Inviertes todo en una sola empresa.",
-      "correcta": 0,
-      "impacto_saldo": -50
-    },
-    {
-      "opcion_id": 5,
-      "situacion_id": 2,
-      "descripcion": "Lo divides entre dos sectores.",
-      "correcta": 0,
-      "impacto_saldo": -50
-    },
-    {
-      "opcion_id": 6,
-      "situacion_id": 2,
-      "descripcion": "Optas por el fondo diversificado.",
-      "correcta": 1,
-      "impacto_saldo": 150.0
-    },
-    {
-      "opcion_id": 7,
-      "situacion_id": 3,
-      "descripcion": "Usas el fondo de emergencia.",
-      "correcta": 1,
-      "impacto_saldo": 0.0
-    },
-    {
-      "opcion_id": 7,
-      "situacion_id": 3,
-      "descripcion": "Vendes tus inversiones con pérdida.",
-      "correcta": 0,
-      "impacto_saldo": -200.0
-    },
-    {
-      "opcion_id": 8,
-      "situacion_id": 4,
-      "descripcion": "Aceptas la oferta sin pensarlo.",
-      "correcta": 0,
-      "impacto_saldo": -50.0
-    },
-    {
-      "opcion_id": 9,
-      "situacion_id": 4,
-      "descripcion": "Investigas más antes de decidir.",
-      "correcta": 0,
-      "impacto_saldo": -50.0
-    },
-    {
-      "opcion_id": 10,
-      "situacion_id": 4,
-      "descripcion": "La rechazas por el riesgo elevado.",
-      "correcta": 1,
-      "impacto_saldo": 0.0
-    },
-    {
-      "opcion_id": 10,
-      "situacion_id": 5,
-      "descripcion": "Lo gastas ahora.",
-      "correcta": 0,
-      "impacto_saldo": -50.0
-    },
-    {
-      "opcion_id": 11,
-      "situacion_id": 5,
-      "descripcion": "Lo inviertes y esperas.",
-      "correcta": 1,
-      "impacto_saldo": 100.0
+      "impacto_saldo": [
+        {
+          "opcion_id": 1,
+          "descripcion": "Usas el fondo de emergencia.",
+          "correcta": 1,
+          "impacto_saldo": 0
+        },
+        {
+          "opcion_id": 2,
+          "descripcion": "Vendes tus inversiones con pérdida.",
+          "correcta": 0,
+          "impacto_saldo": -200
+        }
+      ]
     }
   ]
 }
