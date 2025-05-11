@@ -130,7 +130,7 @@
       "tema": "inversion",
       "nivel": "basico",
       "descripcion": "Te ocurre una emergencia médica. Necesitas dinero urgentemente. Tienes dos opciones. ¿Qué elegirías?",
-      "impacto_saldo": [
+      "opciones": [
         {
           "opcion_id": 1,
           "descripcion": "Usas el fondo de emergencia.",
@@ -142,6 +142,64 @@
           "descripcion": "Vendes tus inversiones con pérdida.",
           "correcta": 0,
           "impacto_saldo": -200
+        },
+        {
+          "opcion_id": 3,
+          "descripcion": "No estoy seguro.",
+          "correcta": 0,
+          "impacto_saldo": 0
+        }
+      ]
+    },
+    {
+      "situacion_id": 4,
+      "tema": "inversion",
+      "nivel": "basico",
+      "descripcion": "Te ofrecen una inversión que promete duplicar tu dinero en solo dos meses. Suena tentador, pero notas que hay advertencias de alto riesgo y volatilidad. ¿Qué haces?",
+      "opciones": [
+        {
+          "opcion_id": 1,
+          "descripcion": "Aceptas la oferta sin pensarlo.",
+          "correcta": 0,
+          "impacto_saldo": -50.0
+        },
+        {
+          "opcion_id": 2,
+          "descripcion": "Investigas más antes de decidir.",
+          "correcta": 0,
+          "impacto_saldo": -50.0
+        },
+        {
+          "opcion_id": 3,
+          "descripcion": "La rechazas por el riesgo elevado.",
+          "correcta": 1,
+          "impacto_saldo": 0.0
+        }
+      ]
+    },
+    {
+      "situacion_id": 5,
+      "tema": "inversion",
+      "nivel": "basico",
+      "descripcion": "Tienes S/200. Podrías gastarlo hoy en algo que te gusta, o invertirlo en una opción que te da un pequeño interés cada mes. Si esperas un año, tendrás más dinero.. ¿Qué haces?",
+      "opciones": [
+        {
+          "opcion_id": 1,
+          "descripcion": "Lo gastas ahora.",
+          "correcta": 0,
+          "impacto_saldo": -50.0
+        },
+        {
+          "opcion_id": 2,
+          "descripcion": "Lo inviertes y esperas.",
+          "correcta": 1,
+          "impacto_saldo": 100
+        },
+        {
+          "opcion_id": 3,
+          "descripcion": "No estoy seguro.",
+          "correcta": 0,
+          "impacto_saldo": 0
         }
       ]
     }
