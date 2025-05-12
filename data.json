@@ -194,12 +194,6 @@
           "descripcion": "Lo inviertes y esperas.",
           "correcta": 1,
           "impacto_saldo": 100
-        },
-        {
-          "opcion_id": 3,
-          "descripcion": "No estoy seguro.",
-          "correcta": 0,
-          "impacto_saldo": 0
         }
       ]
     }
